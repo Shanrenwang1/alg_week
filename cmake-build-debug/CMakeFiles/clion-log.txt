@@ -1,0 +1,9 @@
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\fengl\CLionProjects\alg_week
+    -- src/A.cpp will be compiled to bin/A
+    -- src/B.cpp will be compiled to bin/B
+    -- src/C.cpp will be compiled to bin/C
+    -- src/D.cpp will be compiled to bin/D
+    -- src/E.cpp will be compiled to bin/E
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/fengl/CLionProjects/alg_week/cmake-build-debug
