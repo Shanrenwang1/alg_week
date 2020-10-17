@@ -1,68 +1,65 @@
-//
-// Created by fengl on 2020/10/4.
-//
-
-#include <iostream>
-using namespace std;
+#include<iostream>
 #include <algorithm>
-
-#define llong long long
-
-class KISS { // 为了能够两个数组按第一个数组排序
-public:
+using namespace std;
+#define int long long
+const int maxm=1e5+5;
+struct Node{
     int a,b;
-    bool operator<(const KISS& other) const {
-        /* 把原有的的’<‘改成’<‘就可以逆排序（虽然不一定规范） */
-        return a > other.a;
-    }
-};
-
-int n, m;
-
-void init_kiss(KISS kiss[]) { // 录入数据
-    for (int i = 0; i < m; ++i) {
-        cin >> kiss[i].a >> kiss[i].b;
-    }
-    sort(kiss, kiss + m);
+}a[maxm];
+int sum[maxm];
+int c[maxm];
+int n,m;
+bool cmp(int a,int b){
+    return a>b;
 }
-
-/* 思路是：当买完需要的第一杯后，剩下固定杯数的奶茶应该买同一种，那么容易计算最大值 */
-long long best_second_kiss(KISS kiss[], int bought_first) {
-    long long max = 0;
-    long long sum = 0;
-    for (int i = 1; i <= m; ++i) {
-        if (i <= bought_first) { // 买了第一杯的，不用再买第一杯了
-            sum = kiss[i-1].b * (n - bought_first);
-        } else {
-            sum = kiss[i-1].a + kiss[i-1].b * (n - bought_first - 1); // 否则，必须加上第一杯
+signed main(){
+    int T;cin>>T;
+    while(T--){
+        cin>>n>>m;
+        for(int i=1;i<=m;i++){
+            cin>>a[i].a>>a[i].b;
+            c[i]=a[i].a;
         }
-        max = max > sum? max : sum;
-    }
-    return max;
-}
-
-long long buy_buy_buy(KISS kiss[]) { // 直接遍历，超时再考虑二分
-    long long max = 0;
-    for (int i = 1; i <= m; ++i) {
-        long long sum = 0;
-        for (int j = 1; j <= i; ++j) { // 将已买的第一杯加上
-            sum += kiss[j-1].a;
+        sort(c+1,c+1+m,cmp);//从大到小排序
+        for(int i=1;i<=m;i++){
+            sum[i]=sum[i-1]+c[i];
         }
-        sum += best_second_kiss(kiss, i);
-        cout << i << ": "<< sum << endl;
-        max = max > sum? max : sum;
-    }
-    return max;
-}
-
-int main() {
-    int t;
-    cin >> t;
-    while (t--) {
-        cin >> n >> m;
-        KISS kiss[m];
-        init_kiss(kiss);
-        cout << buy_buy_buy(kiss) << endl;
+        int ans=0;
+        for(int i=1;i<=m;i++){//枚举最后b[i]买的是哪种
+            int temp=0;
+            int remain=n;
+            //二分找>b[i]的
+            int l=1,r=m;
+            int p=-1;
+            while(l<=r){
+                int mid=(l+r)/2;
+                if(c[mid]>a[i].b){
+                    p=mid,l=mid+1;
+                }else{
+                    r=mid-1;
+                }
+            }
+            if(p==-1){//没有>b[i]的,那么全买这一种
+                ans=max(ans,a[i].a+(n-1)*a[i].b);
+                continue;
+            }
+            //
+            if(p>n)p=n;
+            temp+=sum[p];
+            remain-=p;
+            if(a[i].a>=c[p]){
+                temp+=a[i].b*remain;
+            }else{
+                if(remain){
+                    temp+=a[i].a;
+                    remain--;
+                    temp+=a[i].b*remain;
+                }
+            }
+            //
+            ans=max(ans,temp);
+        }
+        cout<<ans<<endl;
     }
     return 0;
 }
