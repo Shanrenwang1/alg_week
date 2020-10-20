@@ -194,140 +194,140 @@ E/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/build
 .PHONY : E/fast
 
-week6/A.obj: week6/A.cpp.obj
+week7/A.obj: week7/A.cpp.obj
 
-.PHONY : week6/A.obj
-
-# target to build an object file
-week6/A.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week6/A.cpp.obj
-.PHONY : week6/A.cpp.obj
-
-week6/A.i: week6/A.cpp.i
-
-.PHONY : week6/A.i
-
-# target to preprocess a source file
-week6/A.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week6/A.cpp.i
-.PHONY : week6/A.cpp.i
-
-week6/A.s: week6/A.cpp.s
-
-.PHONY : week6/A.s
-
-# target to generate assembly for a file
-week6/A.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week6/A.cpp.s
-.PHONY : week6/A.cpp.s
-
-week6/B.obj: week6/B.cpp.obj
-
-.PHONY : week6/B.obj
+.PHONY : week7/A.obj
 
 # target to build an object file
-week6/B.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week6/B.cpp.obj
-.PHONY : week6/B.cpp.obj
+week7/A.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week7/A.cpp.obj
+.PHONY : week7/A.cpp.obj
 
-week6/B.i: week6/B.cpp.i
+week7/A.i: week7/A.cpp.i
 
-.PHONY : week6/B.i
+.PHONY : week7/A.i
 
 # target to preprocess a source file
-week6/B.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week6/B.cpp.i
-.PHONY : week6/B.cpp.i
+week7/A.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week7/A.cpp.i
+.PHONY : week7/A.cpp.i
 
-week6/B.s: week6/B.cpp.s
+week7/A.s: week7/A.cpp.s
 
-.PHONY : week6/B.s
+.PHONY : week7/A.s
 
 # target to generate assembly for a file
-week6/B.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week6/B.cpp.s
-.PHONY : week6/B.cpp.s
+week7/A.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week7/A.cpp.s
+.PHONY : week7/A.cpp.s
 
-week6/C.obj: week6/C.cpp.obj
+week7/B.obj: week7/B.cpp.obj
 
-.PHONY : week6/C.obj
+.PHONY : week7/B.obj
 
 # target to build an object file
-week6/C.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week6/C.cpp.obj
-.PHONY : week6/C.cpp.obj
+week7/B.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week7/B.cpp.obj
+.PHONY : week7/B.cpp.obj
 
-week6/C.i: week6/C.cpp.i
+week7/B.i: week7/B.cpp.i
 
-.PHONY : week6/C.i
+.PHONY : week7/B.i
 
 # target to preprocess a source file
-week6/C.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week6/C.cpp.i
-.PHONY : week6/C.cpp.i
+week7/B.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week7/B.cpp.i
+.PHONY : week7/B.cpp.i
 
-week6/C.s: week6/C.cpp.s
+week7/B.s: week7/B.cpp.s
 
-.PHONY : week6/C.s
+.PHONY : week7/B.s
 
 # target to generate assembly for a file
-week6/C.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week6/C.cpp.s
-.PHONY : week6/C.cpp.s
+week7/B.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week7/B.cpp.s
+.PHONY : week7/B.cpp.s
 
-week6/D.obj: week6/D.cpp.obj
+week7/C.obj: week7/C.cpp.obj
 
-.PHONY : week6/D.obj
+.PHONY : week7/C.obj
 
 # target to build an object file
-week6/D.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week6/D.cpp.obj
-.PHONY : week6/D.cpp.obj
+week7/C.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week7/C.cpp.obj
+.PHONY : week7/C.cpp.obj
 
-week6/D.i: week6/D.cpp.i
+week7/C.i: week7/C.cpp.i
 
-.PHONY : week6/D.i
+.PHONY : week7/C.i
 
 # target to preprocess a source file
-week6/D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week6/D.cpp.i
-.PHONY : week6/D.cpp.i
+week7/C.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week7/C.cpp.i
+.PHONY : week7/C.cpp.i
 
-week6/D.s: week6/D.cpp.s
+week7/C.s: week7/C.cpp.s
 
-.PHONY : week6/D.s
+.PHONY : week7/C.s
 
 # target to generate assembly for a file
-week6/D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week6/D.cpp.s
-.PHONY : week6/D.cpp.s
+week7/C.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week7/C.cpp.s
+.PHONY : week7/C.cpp.s
 
-week6/E.obj: week6/E.cpp.obj
+week7/D.obj: week7/D.cpp.obj
 
-.PHONY : week6/E.obj
+.PHONY : week7/D.obj
 
 # target to build an object file
-week6/E.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week6/E.cpp.obj
-.PHONY : week6/E.cpp.obj
+week7/D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week7/D.cpp.obj
+.PHONY : week7/D.cpp.obj
 
-week6/E.i: week6/E.cpp.i
+week7/D.i: week7/D.cpp.i
 
-.PHONY : week6/E.i
+.PHONY : week7/D.i
 
 # target to preprocess a source file
-week6/E.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week6/E.cpp.i
-.PHONY : week6/E.cpp.i
+week7/D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week7/D.cpp.i
+.PHONY : week7/D.cpp.i
 
-week6/E.s: week6/E.cpp.s
+week7/D.s: week7/D.cpp.s
 
-.PHONY : week6/E.s
+.PHONY : week7/D.s
 
 # target to generate assembly for a file
-week6/E.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week6/E.cpp.s
-.PHONY : week6/E.cpp.s
+week7/D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week7/D.cpp.s
+.PHONY : week7/D.cpp.s
+
+week7/E.obj: week7/E.cpp.obj
+
+.PHONY : week7/E.obj
+
+# target to build an object file
+week7/E.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week7/E.cpp.obj
+.PHONY : week7/E.cpp.obj
+
+week7/E.i: week7/E.cpp.i
+
+.PHONY : week7/E.i
+
+# target to preprocess a source file
+week7/E.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week7/E.cpp.i
+.PHONY : week7/E.cpp.i
+
+week7/E.s: week7/E.cpp.s
+
+.PHONY : week7/E.s
+
+# target to generate assembly for a file
+week7/E.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week7/E.cpp.s
+.PHONY : week7/E.cpp.s
 
 # Help Target
 help:
@@ -342,21 +342,21 @@ help:
 	@echo ... C
 	@echo ... D
 	@echo ... E
-	@echo ... week6/A.obj
-	@echo ... week6/A.i
-	@echo ... week6/A.s
-	@echo ... week6/B.obj
-	@echo ... week6/B.i
-	@echo ... week6/B.s
-	@echo ... week6/C.obj
-	@echo ... week6/C.i
-	@echo ... week6/C.s
-	@echo ... week6/D.obj
-	@echo ... week6/D.i
-	@echo ... week6/D.s
-	@echo ... week6/E.obj
-	@echo ... week6/E.i
-	@echo ... week6/E.s
+	@echo ... week7/A.obj
+	@echo ... week7/A.i
+	@echo ... week7/A.s
+	@echo ... week7/B.obj
+	@echo ... week7/B.i
+	@echo ... week7/B.s
+	@echo ... week7/C.obj
+	@echo ... week7/C.i
+	@echo ... week7/C.s
+	@echo ... week7/D.obj
+	@echo ... week7/D.i
+	@echo ... week7/D.s
+	@echo ... week7/E.obj
+	@echo ... week7/E.i
+	@echo ... week7/E.s
 .PHONY : help
 
 

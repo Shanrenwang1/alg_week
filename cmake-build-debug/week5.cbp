@@ -248,19 +248,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week6/A.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week7/A.cpp">
 			<Option target="A"/>
 		</Unit>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week6/B.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week7/B.cpp">
 			<Option target="B"/>
 		</Unit>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week6/C.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week7/C.cpp">
 			<Option target="C"/>
 		</Unit>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week6/D.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week7/D.cpp">
 			<Option target="D"/>
 		</Unit>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week6/E.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week7/E.cpp">
 			<Option target="E"/>
 		</Unit>
 		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/CMakeLists.txt">
