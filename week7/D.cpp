@@ -6,50 +6,33 @@
 #include <cstdio>
 #include <iomanip>
 using namespace std;
-#define MAXSIZE 200000
+#define MAXSIZE 10000
 
 
-
+/*
+ * 重点在于想出下面的递推式
+ * f[i] = min(min(f[i-1] + x[i], f[i-2] + x[i-1]), min(f[i-3] + x[i-2],f[i-4]+x[i-3]+x[i-2]))
+ */
 
 int main() {
-    int loop_number, candy_number, girl_eaten_num;
-    bool candy[MAXSIZE];
-    stack<bool> stack_candy;
-    cin >> loop_number;
-    while (loop_number--) {
+    int loop_times, candy_number;
+    cin >> loop_times;
+    while (loop_times--) {
         cin >> candy_number;
-        girl_eaten_num = 0;
-        while (!stack_candy.empty()) {
-            stack_candy.pop();
+        int x[candy_number + 1];
+        int f[candy_number + 1];
+        for (int i = 1; i <= candy_number; ++i) { // 输入
+            cin >> x[i];
         }
-
-        for (int i = 0; i < candy_number; ++i) {
-            cin >> candy[i];
+        f[0] = 0;
+        f[1] = x[1];
+        f[2] = min((f[1] + x[2]), f[1]);
+        f[3] = min(min(f[2] + x[3], f[1] + x[2]), x[1]);
+        f[4] = min(min(f[3] + x[4], f[2] + x[3]), min(f[1] + x[2], x[1]+x[2])); // 初始化前4个值
+        for (int i = 5; i <= candy_number; ++i) { // 遍历求解
+            f[i] = min(min(f[i-1] + x[i], f[i-2] + x[i-1]), min(f[i-3] + x[i-2],f[i-4]+x[i-3]+x[i-2]));
         }
-        for (int i = (candy_number - 1); i >= 0; --i) {
-            stack_candy.push(candy[i]);
-        }
-
-        bool flag = true;
-        while (!stack_candy.empty()) {
-            if (flag) {
-                if (stack_candy.top()) {
-                    girl_eaten_num++;
-                }
-                stack_candy.pop();
-                if (!stack_candy.empty() && !stack_candy.top()) {
-                    stack_candy.pop();
-                }
-                flag = false;
-            } else {
-                stack_candy.pop();
-                if (!stack_candy.empty() && stack_candy.top()) {
-                    stack_candy.pop();
-                }
-                flag = true;
-            }
-        }
-        cout << girl_eaten_num << endl;
+        cout << f[candy_number] << endl; // 输出
     }
     return 0;
 }
