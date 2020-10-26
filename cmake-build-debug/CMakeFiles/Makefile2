@@ -77,6 +77,7 @@ all: CMakeFiles/B.dir/all
 all: CMakeFiles/C.dir/all
 all: CMakeFiles/D.dir/all
 all: CMakeFiles/E.dir/all
+all: CMakeFiles/example_functions.dir/all
 
 .PHONY : all
 
@@ -91,6 +92,7 @@ clean: CMakeFiles/B.dir/clean
 clean: CMakeFiles/C.dir/clean
 clean: CMakeFiles/D.dir/clean
 clean: CMakeFiles/E.dir/clean
+clean: CMakeFiles/example_functions.dir/clean
 
 .PHONY : clean
 
@@ -228,6 +230,33 @@ E : CMakeFiles/E.dir/rule
 CMakeFiles/E.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/clean
 .PHONY : CMakeFiles/E.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/example_functions.dir
+
+# All Build rule for target.
+CMakeFiles/example_functions.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_functions.dir\build.make CMakeFiles/example_functions.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_functions.dir\build.make CMakeFiles/example_functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target example_functions"
+.PHONY : CMakeFiles/example_functions.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/example_functions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/example_functions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/example_functions.dir/rule
+
+# Convenience name for target.
+example_functions: CMakeFiles/example_functions.dir/rule
+
+.PHONY : example_functions
+
+# clean rule for target.
+CMakeFiles/example_functions.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_functions.dir\build.make CMakeFiles/example_functions.dir/clean
+.PHONY : CMakeFiles/example_functions.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

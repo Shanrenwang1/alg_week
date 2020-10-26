@@ -194,140 +194,180 @@ E/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/build
 .PHONY : E/fast
 
-week7/A.obj: week7/A.cpp.obj
+#=============================================================================
+# Target rules for targets named example_functions
 
-.PHONY : week7/A.obj
+# Build rule for target.
+example_functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 example_functions
+.PHONY : example_functions
 
-# target to build an object file
-week7/A.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week7/A.cpp.obj
-.PHONY : week7/A.cpp.obj
+# fast build rule for target.
+example_functions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_functions.dir\build.make CMakeFiles/example_functions.dir/build
+.PHONY : example_functions/fast
 
-week7/A.i: week7/A.cpp.i
+week_last/A.obj: week_last/A.cpp.obj
 
-.PHONY : week7/A.i
-
-# target to preprocess a source file
-week7/A.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week7/A.cpp.i
-.PHONY : week7/A.cpp.i
-
-week7/A.s: week7/A.cpp.s
-
-.PHONY : week7/A.s
-
-# target to generate assembly for a file
-week7/A.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week7/A.cpp.s
-.PHONY : week7/A.cpp.s
-
-week7/B.obj: week7/B.cpp.obj
-
-.PHONY : week7/B.obj
+.PHONY : week_last/A.obj
 
 # target to build an object file
-week7/B.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week7/B.cpp.obj
-.PHONY : week7/B.cpp.obj
+week_last/A.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week_last/A.cpp.obj
+.PHONY : week_last/A.cpp.obj
 
-week7/B.i: week7/B.cpp.i
+week_last/A.i: week_last/A.cpp.i
 
-.PHONY : week7/B.i
+.PHONY : week_last/A.i
 
 # target to preprocess a source file
-week7/B.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week7/B.cpp.i
-.PHONY : week7/B.cpp.i
+week_last/A.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week_last/A.cpp.i
+.PHONY : week_last/A.cpp.i
 
-week7/B.s: week7/B.cpp.s
+week_last/A.s: week_last/A.cpp.s
 
-.PHONY : week7/B.s
+.PHONY : week_last/A.s
 
 # target to generate assembly for a file
-week7/B.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week7/B.cpp.s
-.PHONY : week7/B.cpp.s
+week_last/A.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/week_last/A.cpp.s
+.PHONY : week_last/A.cpp.s
 
-week7/C.obj: week7/C.cpp.obj
+week_last/B.obj: week_last/B.cpp.obj
 
-.PHONY : week7/C.obj
+.PHONY : week_last/B.obj
 
 # target to build an object file
-week7/C.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week7/C.cpp.obj
-.PHONY : week7/C.cpp.obj
+week_last/B.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week_last/B.cpp.obj
+.PHONY : week_last/B.cpp.obj
 
-week7/C.i: week7/C.cpp.i
+week_last/B.i: week_last/B.cpp.i
 
-.PHONY : week7/C.i
+.PHONY : week_last/B.i
 
 # target to preprocess a source file
-week7/C.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week7/C.cpp.i
-.PHONY : week7/C.cpp.i
+week_last/B.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week_last/B.cpp.i
+.PHONY : week_last/B.cpp.i
 
-week7/C.s: week7/C.cpp.s
+week_last/B.s: week_last/B.cpp.s
 
-.PHONY : week7/C.s
+.PHONY : week_last/B.s
 
 # target to generate assembly for a file
-week7/C.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week7/C.cpp.s
-.PHONY : week7/C.cpp.s
+week_last/B.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/week_last/B.cpp.s
+.PHONY : week_last/B.cpp.s
 
-week7/D.obj: week7/D.cpp.obj
+week_last/C.obj: week_last/C.cpp.obj
 
-.PHONY : week7/D.obj
+.PHONY : week_last/C.obj
 
 # target to build an object file
-week7/D.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week7/D.cpp.obj
-.PHONY : week7/D.cpp.obj
+week_last/C.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week_last/C.cpp.obj
+.PHONY : week_last/C.cpp.obj
 
-week7/D.i: week7/D.cpp.i
+week_last/C.i: week_last/C.cpp.i
 
-.PHONY : week7/D.i
+.PHONY : week_last/C.i
 
 # target to preprocess a source file
-week7/D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week7/D.cpp.i
-.PHONY : week7/D.cpp.i
+week_last/C.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week_last/C.cpp.i
+.PHONY : week_last/C.cpp.i
 
-week7/D.s: week7/D.cpp.s
+week_last/C.s: week_last/C.cpp.s
 
-.PHONY : week7/D.s
+.PHONY : week_last/C.s
 
 # target to generate assembly for a file
-week7/D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week7/D.cpp.s
-.PHONY : week7/D.cpp.s
+week_last/C.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/week_last/C.cpp.s
+.PHONY : week_last/C.cpp.s
 
-week7/E.obj: week7/E.cpp.obj
+week_last/D.obj: week_last/D.cpp.obj
 
-.PHONY : week7/E.obj
+.PHONY : week_last/D.obj
 
 # target to build an object file
-week7/E.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week7/E.cpp.obj
-.PHONY : week7/E.cpp.obj
+week_last/D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week_last/D.cpp.obj
+.PHONY : week_last/D.cpp.obj
 
-week7/E.i: week7/E.cpp.i
+week_last/D.i: week_last/D.cpp.i
 
-.PHONY : week7/E.i
+.PHONY : week_last/D.i
 
 # target to preprocess a source file
-week7/E.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week7/E.cpp.i
-.PHONY : week7/E.cpp.i
+week_last/D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week_last/D.cpp.i
+.PHONY : week_last/D.cpp.i
 
-week7/E.s: week7/E.cpp.s
+week_last/D.s: week_last/D.cpp.s
 
-.PHONY : week7/E.s
+.PHONY : week_last/D.s
 
 # target to generate assembly for a file
-week7/E.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week7/E.cpp.s
-.PHONY : week7/E.cpp.s
+week_last/D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week_last/D.cpp.s
+.PHONY : week_last/D.cpp.s
+
+week_last/E.obj: week_last/E.cpp.obj
+
+.PHONY : week_last/E.obj
+
+# target to build an object file
+week_last/E.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week_last/E.cpp.obj
+.PHONY : week_last/E.cpp.obj
+
+week_last/E.i: week_last/E.cpp.i
+
+.PHONY : week_last/E.i
+
+# target to preprocess a source file
+week_last/E.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week_last/E.cpp.i
+.PHONY : week_last/E.cpp.i
+
+week_last/E.s: week_last/E.cpp.s
+
+.PHONY : week_last/E.s
+
+# target to generate assembly for a file
+week_last/E.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/week_last/E.cpp.s
+.PHONY : week_last/E.cpp.s
+
+week_last/example_functions.obj: week_last/example_functions.cpp.obj
+
+.PHONY : week_last/example_functions.obj
+
+# target to build an object file
+week_last/example_functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_functions.dir\build.make CMakeFiles/example_functions.dir/week_last/example_functions.cpp.obj
+.PHONY : week_last/example_functions.cpp.obj
+
+week_last/example_functions.i: week_last/example_functions.cpp.i
+
+.PHONY : week_last/example_functions.i
+
+# target to preprocess a source file
+week_last/example_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_functions.dir\build.make CMakeFiles/example_functions.dir/week_last/example_functions.cpp.i
+.PHONY : week_last/example_functions.cpp.i
+
+week_last/example_functions.s: week_last/example_functions.cpp.s
+
+.PHONY : week_last/example_functions.s
+
+# target to generate assembly for a file
+week_last/example_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_functions.dir\build.make CMakeFiles/example_functions.dir/week_last/example_functions.cpp.s
+.PHONY : week_last/example_functions.cpp.s
 
 # Help Target
 help:
@@ -342,21 +382,25 @@ help:
 	@echo ... C
 	@echo ... D
 	@echo ... E
-	@echo ... week7/A.obj
-	@echo ... week7/A.i
-	@echo ... week7/A.s
-	@echo ... week7/B.obj
-	@echo ... week7/B.i
-	@echo ... week7/B.s
-	@echo ... week7/C.obj
-	@echo ... week7/C.i
-	@echo ... week7/C.s
-	@echo ... week7/D.obj
-	@echo ... week7/D.i
-	@echo ... week7/D.s
-	@echo ... week7/E.obj
-	@echo ... week7/E.i
-	@echo ... week7/E.s
+	@echo ... example_functions
+	@echo ... week_last/A.obj
+	@echo ... week_last/A.i
+	@echo ... week_last/A.s
+	@echo ... week_last/B.obj
+	@echo ... week_last/B.i
+	@echo ... week_last/B.s
+	@echo ... week_last/C.obj
+	@echo ... week_last/C.i
+	@echo ... week_last/C.s
+	@echo ... week_last/D.obj
+	@echo ... week_last/D.i
+	@echo ... week_last/D.s
+	@echo ... week_last/E.obj
+	@echo ... week_last/E.i
+	@echo ... week_last/E.s
+	@echo ... week_last/example_functions.obj
+	@echo ... week_last/example_functions.i
+	@echo ... week_last/example_functions.s
 .PHONY : help
 
 

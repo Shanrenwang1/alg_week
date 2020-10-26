@@ -5,3 +5,4 @@ C:/Users/fengl/CLionProjects/alg_week/cmake-build-debug/CMakeFiles/C.dir
 C:/Users/fengl/CLionProjects/alg_week/cmake-build-debug/CMakeFiles/D.dir
 C:/Users/fengl/CLionProjects/alg_week/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/fengl/CLionProjects/alg_week/cmake-build-debug/CMakeFiles/E.dir
+C:/Users/fengl/CLionProjects/alg_week/cmake-build-debug/CMakeFiles/example_functions.dir

@@ -76,27 +76,27 @@ include CMakeFiles/D.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/D.dir/flags.make
 
-CMakeFiles/D.dir/week7/D.cpp.obj: CMakeFiles/D.dir/flags.make
-CMakeFiles/D.dir/week7/D.cpp.obj: ../week7/D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/D.dir/week7/D.cpp.obj"
-	C:\Users\fengl\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\D.dir\week7\D.cpp.obj -c C:\Users\fengl\CLionProjects\alg_week\week7\D.cpp
+CMakeFiles/D.dir/week_last/D.cpp.obj: CMakeFiles/D.dir/flags.make
+CMakeFiles/D.dir/week_last/D.cpp.obj: ../week_last/D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/D.dir/week_last/D.cpp.obj"
+	C:\Users\fengl\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\D.dir\week_last\D.cpp.obj -c C:\Users\fengl\CLionProjects\alg_week\week_last\D.cpp
 
-CMakeFiles/D.dir/week7/D.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/D.dir/week7/D.cpp.i"
-	C:\Users\fengl\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fengl\CLionProjects\alg_week\week7\D.cpp > CMakeFiles\D.dir\week7\D.cpp.i
+CMakeFiles/D.dir/week_last/D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/D.dir/week_last/D.cpp.i"
+	C:\Users\fengl\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fengl\CLionProjects\alg_week\week_last\D.cpp > CMakeFiles\D.dir\week_last\D.cpp.i
 
-CMakeFiles/D.dir/week7/D.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/D.dir/week7/D.cpp.s"
-	C:\Users\fengl\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fengl\CLionProjects\alg_week\week7\D.cpp -o CMakeFiles\D.dir\week7\D.cpp.s
+CMakeFiles/D.dir/week_last/D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/D.dir/week_last/D.cpp.s"
+	C:\Users\fengl\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fengl\CLionProjects\alg_week\week_last\D.cpp -o CMakeFiles\D.dir\week_last\D.cpp.s
 
 # Object files for target D
 D_OBJECTS = \
-"CMakeFiles/D.dir/week7/D.cpp.obj"
+"CMakeFiles/D.dir/week_last/D.cpp.obj"
 
 # External object files for target D
 D_EXTERNAL_OBJECTS =
 
-D.exe: CMakeFiles/D.dir/week7/D.cpp.obj
+D.exe: CMakeFiles/D.dir/week_last/D.cpp.obj
 D.exe: CMakeFiles/D.dir/build.make
 D.exe: CMakeFiles/D.dir/linklibs.rsp
 D.exe: CMakeFiles/D.dir/objects1.rsp
