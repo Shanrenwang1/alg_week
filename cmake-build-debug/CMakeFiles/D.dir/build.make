@@ -53,10 +53,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,15 +79,15 @@ include CMakeFiles/D.dir/flags.make
 CMakeFiles/D.dir/week7/D.cpp.obj: CMakeFiles/D.dir/flags.make
 CMakeFiles/D.dir/week7/D.cpp.obj: ../week7/D.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/D.dir/week7/D.cpp.obj"
-	C:\Users\fengl\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\D.dir\week7\D.cpp.obj -c C:\Users\fengl\CLionProjects\alg_week\week7\D.cpp
+	C:\Users\fengl\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\D.dir\week7\D.cpp.obj -c C:\Users\fengl\CLionProjects\alg_week\week7\D.cpp
 
 CMakeFiles/D.dir/week7/D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/D.dir/week7/D.cpp.i"
-	C:\Users\fengl\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fengl\CLionProjects\alg_week\week7\D.cpp > CMakeFiles\D.dir\week7\D.cpp.i
+	C:\Users\fengl\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fengl\CLionProjects\alg_week\week7\D.cpp > CMakeFiles\D.dir\week7\D.cpp.i
 
 CMakeFiles/D.dir/week7/D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/D.dir/week7/D.cpp.s"
-	C:\Users\fengl\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fengl\CLionProjects\alg_week\week7\D.cpp -o CMakeFiles\D.dir\week7\D.cpp.s
+	C:\Users\fengl\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fengl\CLionProjects\alg_week\week7\D.cpp -o CMakeFiles\D.dir\week7\D.cpp.s
 
 # Object files for target D
 D_OBJECTS = \
