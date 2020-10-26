@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "B.exe"
   "B.exe.manifest"
   "B.pdb"
-  "CMakeFiles/B.dir/week_last/B.cpp.obj"
+  "CMakeFiles/B.dir/week_8/B.cpp.obj"
   "libB.dll.a"
 )
 

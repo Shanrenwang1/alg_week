@@ -290,22 +290,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_last/A.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_8/A.cpp">
 			<Option target="A"/>
 		</Unit>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_last/B.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_8/B.cpp">
 			<Option target="B"/>
 		</Unit>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_last/C.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_8/C.cpp">
 			<Option target="C"/>
 		</Unit>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_last/D.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_8/D.cpp">
 			<Option target="D"/>
 		</Unit>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_last/E.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_8/E.cpp">
 			<Option target="E"/>
 		</Unit>
-		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_last/example_functions.cpp">
+		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/week_8/example_functions.cpp">
 			<Option target="example_functions"/>
 		</Unit>
 		<Unit filename="C:/Users/fengl/CLionProjects/alg_week/CMakeLists.txt">
