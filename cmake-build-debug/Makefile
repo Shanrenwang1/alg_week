@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -180,6 +180,19 @@ D : cmake_check_build_system
 D/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/build
 .PHONY : D/fast
+
+#=============================================================================
+# Target rules for targets named D_reference
+
+# Build rule for target.
+D_reference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 D_reference
+.PHONY : D_reference
+
+# fast build rule for target.
+D_reference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D_reference.dir\build.make CMakeFiles/D_reference.dir/build
+.PHONY : D_reference/fast
 
 #=============================================================================
 # Target rules for targets named E
@@ -315,6 +328,33 @@ week_8/D.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/week_8/D.cpp.s
 .PHONY : week_8/D.cpp.s
 
+week_8/D_reference.obj: week_8/D_reference.cpp.obj
+
+.PHONY : week_8/D_reference.obj
+
+# target to build an object file
+week_8/D_reference.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D_reference.dir\build.make CMakeFiles/D_reference.dir/week_8/D_reference.cpp.obj
+.PHONY : week_8/D_reference.cpp.obj
+
+week_8/D_reference.i: week_8/D_reference.cpp.i
+
+.PHONY : week_8/D_reference.i
+
+# target to preprocess a source file
+week_8/D_reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D_reference.dir\build.make CMakeFiles/D_reference.dir/week_8/D_reference.cpp.i
+.PHONY : week_8/D_reference.cpp.i
+
+week_8/D_reference.s: week_8/D_reference.cpp.s
+
+.PHONY : week_8/D_reference.s
+
+# target to generate assembly for a file
+week_8/D_reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D_reference.dir\build.make CMakeFiles/D_reference.dir/week_8/D_reference.cpp.s
+.PHONY : week_8/D_reference.cpp.s
+
 week_8/E.obj: week_8/E.cpp.obj
 
 .PHONY : week_8/E.obj
@@ -381,6 +421,7 @@ help:
 	@echo ... B
 	@echo ... C
 	@echo ... D
+	@echo ... D_reference
 	@echo ... E
 	@echo ... example_functions
 	@echo ... week_8/A.obj
@@ -395,6 +436,9 @@ help:
 	@echo ... week_8/D.obj
 	@echo ... week_8/D.i
 	@echo ... week_8/D.s
+	@echo ... week_8/D_reference.obj
+	@echo ... week_8/D_reference.i
+	@echo ... week_8/D_reference.s
 	@echo ... week_8/E.obj
 	@echo ... week_8/E.i
 	@echo ... week_8/E.s

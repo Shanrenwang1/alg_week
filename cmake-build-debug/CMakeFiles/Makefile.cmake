@@ -57,6 +57,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/B.dir/DependInfo.cmake"
   "CMakeFiles/C.dir/DependInfo.cmake"
   "CMakeFiles/D.dir/DependInfo.cmake"
+  "CMakeFiles/D_reference.dir/DependInfo.cmake"
   "CMakeFiles/E.dir/DependInfo.cmake"
   "CMakeFiles/example_functions.dir/DependInfo.cmake"
   )

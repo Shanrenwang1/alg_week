@@ -3,6 +3,7 @@
     -- src/B.cpp will be compiled to bin/B
     -- src/C.cpp will be compiled to bin/C
     -- src/D.cpp will be compiled to bin/D
+    -- src/D_reference.cpp will be compiled to bin/D_reference
     -- src/E.cpp will be compiled to bin/E
     -- src/example_functions.cpp will be compiled to bin/example_functions
 -- Configuring done

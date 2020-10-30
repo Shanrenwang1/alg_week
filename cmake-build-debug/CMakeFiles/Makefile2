@@ -76,6 +76,7 @@ all: CMakeFiles/A.dir/all
 all: CMakeFiles/B.dir/all
 all: CMakeFiles/C.dir/all
 all: CMakeFiles/D.dir/all
+all: CMakeFiles/D_reference.dir/all
 all: CMakeFiles/E.dir/all
 all: CMakeFiles/example_functions.dir/all
 
@@ -91,6 +92,7 @@ clean: CMakeFiles/A.dir/clean
 clean: CMakeFiles/B.dir/clean
 clean: CMakeFiles/C.dir/clean
 clean: CMakeFiles/D.dir/clean
+clean: CMakeFiles/D_reference.dir/clean
 clean: CMakeFiles/E.dir/clean
 clean: CMakeFiles/example_functions.dir/clean
 
@@ -205,13 +207,40 @@ CMakeFiles/D.dir/clean:
 .PHONY : CMakeFiles/D.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/D_reference.dir
+
+# All Build rule for target.
+CMakeFiles/D_reference.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D_reference.dir\build.make CMakeFiles/D_reference.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D_reference.dir\build.make CMakeFiles/D_reference.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target D_reference"
+.PHONY : CMakeFiles/D_reference.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/D_reference.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/D_reference.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/D_reference.dir/rule
+
+# Convenience name for target.
+D_reference: CMakeFiles/D_reference.dir/rule
+
+.PHONY : D_reference
+
+# clean rule for target.
+CMakeFiles/D_reference.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\D_reference.dir\build.make CMakeFiles/D_reference.dir/clean
+.PHONY : CMakeFiles/D_reference.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/E.dir
 
 # All Build rule for target.
 CMakeFiles/E.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target E"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target E"
 .PHONY : CMakeFiles/E.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,7 +267,7 @@ CMakeFiles/E.dir/clean:
 CMakeFiles/example_functions.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_functions.dir\build.make CMakeFiles/example_functions.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_functions.dir\build.make CMakeFiles/example_functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target example_functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\fengl\CLionProjects\alg_week\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target example_functions"
 .PHONY : CMakeFiles/example_functions.dir/all
 
 # Build rule for subdir invocation for target.
